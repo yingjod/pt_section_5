@@ -1,4 +1,9 @@
 def compute(a, b):
+    """
+
+       to return the gcd between x and y
+
+    """
     gcd = 1
     k = 1
     if a > 0 and b > 0:

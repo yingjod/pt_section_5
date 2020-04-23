@@ -2,6 +2,12 @@ import math
 
 
 def compute(num):
+
+    """
+   
+   count it
+
+    """
     s_num = math.floor(num ** 0.5)
     for i in range(2, (s_num + 1)):
         if (num % i) == 0:

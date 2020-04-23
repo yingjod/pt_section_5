@@ -1,4 +1,9 @@
 def compute(a, b):
+    """
+
+    return it after count it
+    
+    """
     return a ** b
 
 

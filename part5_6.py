@@ -1,4 +1,9 @@
 def compute(a, b, c):
+    """
+
+    count it
+
+    """
     delta = b ** 2 - 4 * a * c
 
     if delta < 0:
@@ -12,14 +17,21 @@ def compute(a, b, c):
 
 
 def result_():
+    """
+    
+    check the answer is no root or not
+    
+    """
     if result == None:
         print("your equation has no root")
     else:
         print(result)
 
 
-a = eval(input())
-b = eval(input())
-c = eval(input())
-result = compute(a, b, c)
-result()
+if __name__ == "__main__":
+
+    a = eval(input())
+    b = eval(input())
+    c = eval(input())
+    result = compute(a, b, c)
+    result()

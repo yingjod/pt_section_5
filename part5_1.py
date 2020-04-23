@@ -1,4 +1,9 @@
 def compute():
+    """
+
+    print out about student info
+
+    """
     department = input()
     studentid = input()
     name = input()

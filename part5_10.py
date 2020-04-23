@@ -1,4 +1,8 @@
 def compute(n):
+
+    """
+    to count the number
+    """
     n1 = 0
     n2 = 1
     print("%d %d" % (n1, n2), end=" ")

@@ -2,6 +2,11 @@ import math
 
 
 def nedge(n, g):
+    """
+
+    count it
+    
+    """
 
     area = n * (g ** 2) / (4 * math.tan(math.pi / n))
 
@@ -9,6 +14,11 @@ def nedge(n, g):
 
 
 def main():
+    """
+    
+    get number from user
+
+    """
 
     n = eval(input())
 

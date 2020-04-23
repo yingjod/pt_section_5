@@ -1,4 +1,7 @@
 def compute(a, x, y):
+    """
+    print it out from the set
+    """
     for i in range(y):
         for j in range(x):
             print(a, end=" ")

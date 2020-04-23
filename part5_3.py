@@ -12,6 +12,10 @@
 
 
 def compute(a, b):
+    """
+   sum the number from a to b and return the answer
+
+    """
     return int((a + b) * (b - a + 1) / 2)
 
 
